@@ -1,0 +1,15 @@
+[project]
+name = "jax-colab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jax>=0.10.1",
+    "matplotlib>=3.10.9",
+]
+
+[tool.uv.workspace]
+members = [
+    "src/vae",
+]
