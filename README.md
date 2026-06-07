@@ -53,8 +53,7 @@ Abaixo, amostras geradas pelo modelo nas épocas 0, 5 e 9 de um treino de 100 é
 ## Pré-requisitos
 
 - [uv](https://docs.astral.sh/uv/) — gerenciador de pacotes Python.
-- [Google Colab CLI](https://github.com/googlecolab/colabtools) — `pip install google-colab`.
-- [GitHub CLI](https://cli.github.com/) — `gh` (opcional, para criar o repo remoto).
+- [Google Colab CLI](https://github.com/googlecolab/google-colab-cli) — instale com `uv tool install google-colab-cli`.
 - Uma conta Google com acesso ao Colab (compute units recomendadas para GPUs).
 
 ---
@@ -137,7 +136,7 @@ O wrapper `scripts/colab_run.py` é usado pelo comando `colab exec -f` para repl
 ## Tecnologias
 
 - [JAX](https://github.com/jax-ml/jax) — Computação numérica diferenciável com aceleração GPU/TPU.
-- [Google Colab CLI](https://github.com/googlecolab/colabtools) — Provisionamento e execução remota.
+- [Google Colab CLI](https://github.com/googlecolab/google-colab-cli) — Provisionamento e execução remota.
 - [uv](https://docs.astral.sh/uv/) — Gerenciamento de ambiente Python.
 - [Matplotlib](https://matplotlib.org/) — Visualização das amostras geradas.
 
